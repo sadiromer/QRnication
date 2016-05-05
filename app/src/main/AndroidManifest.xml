@@ -2,6 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.qrnication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +30,8 @@
         <activity android:name=".Scan.ScanSingleActivity" />
         <activity android:name=".Scan.ScanContinuousActivity" />
         <activity android:name=".Generate.GenerateTextActivity" />
-        <activity android:name=".Generate.GenerateImageActivity"></activity>
+        <activity android:name=".Generate.GenerateImageActivity" />
+        <activity android:name=".Scan.ScanCameraActivity"></activity>
     </application>
 
 </manifest>

@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':zxing_core_1.5', ':universal-image-loader-1.9.5'
