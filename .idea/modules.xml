@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QRnication.iml" filepath="$PROJECT_DIR$/QRnication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-3.2.1/core-3.2.1.iml" filepath="$PROJECT_DIR$/core-3.2.1/core-3.2.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/universal-image-loader-1.9.5/universal-image-loader-1.9.5.iml" filepath="$PROJECT_DIR$/universal-image-loader-1.9.5/universal-image-loader-1.9.5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zxing_core_1.5/zxing_core_1.5.iml" filepath="$PROJECT_DIR$/zxing_core_1.5/zxing_core_1.5.iml" />
     </modules>
   </component>
 </project>
